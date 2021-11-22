@@ -186,6 +186,26 @@
         margin-left: 40px;
     }
     /* end header style */
+    /* department style */
+    #departement{
+        padding: 0 30px;
+        color: #000000;
+    }
+    #departement h2{
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 50px;
+        margin-top: unset;
+    }
+    #departement .card-body{
+        margin-left: 10px;
+    }
+    #departement .card-body .card-title{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    /* end department style */
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
     /* header style */

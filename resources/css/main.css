@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+@import url('variables.css');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--white-color);
+}
+ul{
+    margin-bottom: unset!important;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none!important;
+}
+/* info section */
+#info{
+    background-color: var(--bleu-color);
+    color: var(--white-color);
+    padding: 5px 80px;;
+}
+#info ul li{
+    font-size: 14px;
+    font-family: var(--font-family);
+    margin-right: 30px;
+}
+#info ul li a{
+    color: var(--white-color);
+}
+#info .media-icons i{
+    margin-left: 20px;
+}
+/* end info section */
+/* nav style */
+#nav{
+    background-color: var(--white-color);
+    z-index: 100;
+    padding: 5px 80px;
+    color: var(--bleu-color);
+}
+#nav .logo{
+    width: 206;
+    height: 70;
+}
+#nav .list-icon{
+    display: none;
+}
+#nav .close-list{
+    display: none;
+}
+#nav ul li a{
+    display: block;
+    margin-left: 20px;
+    font-weight: 600;
+    color: var(--bleu-color);
+}
+#nav ul li a:hover{
+    color: var(--red-color);
+}
+/* end nav style */
+/* header style */
+#header .header-slide{
+    position: relative;
+}
+#header .header-slide img{
+    opacity: 0.5;
+}
+#header .header-text{
+    position: absolute!important;
+    top: 50%;
+    left: 15%;
+}
+#header .header-text .text1{
+    font-size: 100px;
+    color: var(--white-color);
+    font-weight: 700;
+    margin: 0;
+}
+#header .header-text .text2{
+    font-size: 80px;
+    color: var(--white-color);
+    font-weight: 500;
+    margin-left: 125px;
+}
+/* end header style */
+/* departement style */
+#departement{
+    padding: 0 80px;
+    color: #000000;
+}
+#departement h2{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 150px 0;
+}
+#departement .card{
+    border: none;
+}
+#departement .card-img{
+    overflow: hidden;
+}
+#departement img{
+    transition: 1s;
+}
+#departement img:hover{
+    transform: scale(1.1);
+}
+#departement .card a{
+    color: #000000;
+    display: block;
+}
+
+/* end departement style */

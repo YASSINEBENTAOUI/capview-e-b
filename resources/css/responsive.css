@@ -49,6 +49,19 @@
         margin-left: 20px!important;
     }
     /* end header style */
+    /* department style */
+    #departement{
+        padding: 0 5px;
+        color: #000000;
+    }
+    #departement h2{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-top: unset;
+    }
+    /* end department style */
 }
 /* ************************************* */
 @media (min-width: 577px) and (max-width: 768px) {
@@ -98,6 +111,25 @@
         margin-left: 30px;
     }
     /* end header style */
+    /* department style */
+    #departement{
+        padding: 0 30px;
+        color: #000000;
+    }
+    #departement h2{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        margin-top: unset;
+    }
+    #departement .card-body{
+        margin-left: 20px;
+    }
+    #departement .card-body .card-title{
+        font-weight: 600;
+    }
+    /* end department style */
 }
 @media (min-width: 769px) and (max-width: 992px) {
     /* nav style */
@@ -121,6 +153,25 @@
         margin-left: 30px;
     }
     /* end header style */
+    /* department style */
+    #departement{
+        padding: 0 30px;
+        color: #000000;
+    }
+    #departement h2{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 50px;
+        margin-top: unset;
+    }
+    #departement .card-body{
+        margin-left: 10px;
+    }
+    #departement .card-body .card-title{
+        font-weight: 600;
+    }
+    /* end department style */
 }
 @media (min-width: 993px) and (max-width: 1200px) {
     /* header style */

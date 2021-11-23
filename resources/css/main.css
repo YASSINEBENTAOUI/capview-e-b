@@ -123,4 +123,20 @@ a{
     font-weight: 600;
     font-size: 20px;
 }
+#departement .card-body a{
+    color: var(--red-color);
+    text-decoration: underline!important;
+}
 /* end departement style */
+/* service style */
+#service{
+    padding: 0 80px;
+    color: #000000;
+}
+#service h2{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2;
+    /* margin: 20px 0; */
+}
+/* end service style */

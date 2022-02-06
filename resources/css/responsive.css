@@ -51,17 +51,18 @@
     /* end header style */
     /* department style */
     #departement{
-        padding: 0 5px;
+        padding: 0 15px;
         color: #000000;
     }
     #departement h2{
         font-size: 30px;
         font-weight: 700;
         line-height: 1.2;
-        margin-bottom: 10px;
-        margin-top: unset;
+        margin-bottom: 30px;
+        margin-top: 10px;
     }
     /* end department style */
+    /* services */
 }
 /* ************************************* */
 @media (min-width: 577px) and (max-width: 768px) {
@@ -120,8 +121,8 @@
         font-size: 40px;
         font-weight: 700;
         line-height: 1.2;
-        margin-bottom: 20px;
-        margin-top: unset;
+        margin-bottom: 40px;
+        margin-top: 10px;
     }
     #departement .card-body{
         margin-left: 20px;
@@ -155,15 +156,15 @@
     /* end header style */
     /* department style */
     #departement{
-        padding: 0 30px;
+        padding: 0 35px;
         color: #000000;
     }
     #departement h2{
         font-size: 60px;
         font-weight: 700;
         line-height: 1.2;
-        margin-bottom: 50px;
-        margin-top: unset;
+        margin-bottom: 60px;
+        margin-top: 30px;
     }
     #departement .card-body{
         margin-left: 10px;
@@ -195,8 +196,8 @@
         font-size: 80px;
         font-weight: 700;
         line-height: 1.2;
-        margin-bottom: 50px;
-        margin-top: unset;
+        margin-bottom: 70px;
+        margin-top: 30px;
     }
     #departement .card-body{
         margin-left: 10px;

@@ -39,13 +39,13 @@
     /* end nav style */
     /* header style */
     #header .header-text{
-        top: 22%;
+        top: 25%;
     }
     #header .header-text .text1{
-        font-size: 45px!important;
+        font-size: 40px!important;
     }
     #header .header-text .text2{
-        font-size: 32px!important;
+        font-size: 26px!important;
         margin-left: 30px!important;
     }
     /* end header style */
@@ -129,8 +129,8 @@
         font-size: 65px;
     }
     #header .header-text .text2{
-        font-size: 45px;
-        margin-left: 55px;
+        font-size: 40px;
+        margin-left: 52px;
     }
     /* end header style */
     /* valeurs style */
@@ -176,7 +176,7 @@
     }
     #nav ul li a{
         font-size: 14px;
-        margin-left: 10px;
+        margin: 0 5px;
     }
     /* end nav style */
     /* header style */
@@ -187,7 +187,7 @@
         font-size: 80px;
     }
     #header .header-text .text2{
-        font-size: 62px;
+        font-size: 55px;
         margin-left: 60px;
     }
     /* end header style */
@@ -233,8 +233,8 @@
         font-size: 100px;
     }
     #header .header-text .text2{
-        font-size: 90px;
-        margin-left: 80px;
+        font-size: 70px;
+        margin-left: 70px;
     }
     /* end header style */
     /* valeurs style */
@@ -271,4 +271,18 @@
         font-size: 15px;
     }
     /* end department style */
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+    /* header style */
+    #header .header-text{
+        top: 28%;
+    }
+    #header .header-text .text1{
+        font-size: 110px;
+    }
+    #header .header-text .text2{
+        font-size: 80px;
+        margin-left: 70px;
+    }
+    /* end header style */
 }

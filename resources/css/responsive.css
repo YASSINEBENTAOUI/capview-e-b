@@ -39,39 +39,39 @@
     /* end nav style */
     /* header style */
     #header .header-text{
-        top: 30%;
+        top: 22%;
     }
     #header .header-text .text1{
-        font-size: 35px!important;
+        font-size: 45px!important;
     }
     #header .header-text .text2{
-        font-size: 22px!important;
-        margin-left: 20px!important;
+        font-size: 32px!important;
+        margin-left: 30px!important;
     }
     /* end header style */
     /* valeurs style */
     #valeurs{
-        padding: 0 15px;
+        padding: 0 2px;
         color: #000000;
     }
     #valeurs h2{
-        font-size: 30px;
+        font-size: 26px;
         font-weight: 700;
         line-height: 1.2;
         margin-bottom: 30px;
         margin-top: 10px;
     }
     #valeurs .title{
-        font-size: 28px;
+        font-size: 22px;
     }
     /* end valeurs style */
     /* department style */
     #departement{
-        padding: 0 15px;
+        padding: 0 2px;
         color: #000000;
     }
     #departement h2{
-        font-size: 30px;
+        font-size: 26px;
         font-weight: 700;
         line-height: 1.2;
         margin-bottom: 30px;
@@ -123,19 +123,19 @@
     /* end nav style */
     /* header style */
     #header .header-text{
-        top: 35%;
+        top: 25%;
     }
     #header .header-text .text1{
-        font-size: 45px;
+        font-size: 65px;
     }
     #header .header-text .text2{
-        font-size: 32px;
-        margin-left: 30px;
+        font-size: 45px;
+        margin-left: 55px;
     }
     /* end header style */
     /* valeurs style */
     #valeurs{
-        padding: 0 30px;
+        padding: 0 20px;
         color: #000000;
     }
     #valeurs h2{
@@ -144,9 +144,6 @@
         line-height: 1.2;
         margin-bottom: 40px;
         margin-top: 10px;
-    }
-    #valeurs .card-body{
-        margin-left: 20px;
     }
     #valeurs .card-body .card-title{
         font-weight: 600;
@@ -157,7 +154,7 @@
     /* end valeurs style */
     /* department style */
     #departement{
-        padding: 0 30px;
+        padding: 0 20px;
         color: #000000;
     }
     #departement h2{
@@ -166,9 +163,6 @@
         line-height: 1.2;
         margin-bottom: 40px;
         margin-top: 10px;
-    }
-    #departement .card-body{
-        margin-left: 20px;
     }
     #departement .card-body .card-title{
         font-weight: 600;
@@ -187,14 +181,14 @@
     /* end nav style */
     /* header style */
     #header .header-text{
-        top: 40%;
+        top: 25%;
     }
     #header .header-text .text1{
-        font-size: 50px;
+        font-size: 80px;
     }
     #header .header-text .text2{
-        font-size: 42px;
-        margin-left: 30px;
+        font-size: 62px;
+        margin-left: 60px;
     }
     /* end header style */
     /* valeurs style */
@@ -203,14 +197,11 @@
         color: #000000;
     }
     #valeurs h2{
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 1.2;
         margin-bottom: 60px;
         margin-top: 30px;
-    }
-    #valeurs .card-body{
-        margin-left: 10px;
     }
     #valeurs .card-body .card-title{
         font-weight: 600;
@@ -222,14 +213,11 @@
         color: #000000;
     }
     #departement h2{
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 1.2;
         margin-bottom: 60px;
         margin-top: 30px;
-    }
-    #departement .card-body{
-        margin-left: 10px;
     }
     #departement .card-body .card-title{
         font-weight: 600;
@@ -239,14 +227,14 @@
 @media (min-width: 993px) and (max-width: 1200px) {
     /* header style */
     #header .header-text{
-        top: 40%;
+        top: 25%;
     }
     #header .header-text .text1{
-        font-size: 65px;
+        font-size: 100px;
     }
     #header .header-text .text2{
-        font-size: 52px;
-        margin-left: 40px;
+        font-size: 90px;
+        margin-left: 80px;
     }
     /* end header style */
     /* valeurs style */
@@ -255,14 +243,11 @@
         color: #000000;
     }
     #valeurs h2{
-        font-size: 80px;
+        font-size: 65px;
         font-weight: 700;
         line-height: 1.2;
         margin-bottom: 70px;
         margin-top: 30px;
-    }
-    #valeurs .card-body{
-        margin-left: 10px;
     }
     #valeurs .card-body .card-title{
         font-weight: 700;
@@ -275,32 +260,15 @@
         color: #000000;
     }
     #departement h2{
-        font-size: 80px;
+        font-size: 65px;
         font-weight: 700;
         line-height: 1.2;
         margin-bottom: 70px;
         margin-top: 30px;
-    }
-    #departement .card-body{
-        margin-left: 10px;
     }
     #departement .card-body .card-title{
         font-weight: 700;
         font-size: 15px;
     }
     /* end department style */
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
-    /* header style */
-    #header .header-text{
-        top: 40%;
-    }
-    #header .header-text .text1{
-        font-size: 90px;
-    }
-    #header .header-text .text2{
-        font-size: 60px;
-        margin-left: 50px;
-    }
-    /* end header style */
 }

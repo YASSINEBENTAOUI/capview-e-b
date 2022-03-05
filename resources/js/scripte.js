@@ -45,3 +45,14 @@ window.addEventListener('scroll', () => {
     
 })
 // end nav script *********************************
+// fixed arrow
+const arrow = document.querySelector('.arrow')
+window.addEventListener('scroll', () =>{
+    if(window.scrollY >= 500){
+        arrow.style.display = 'block';
+    }
+    else{
+        arrow.style.display = 'none';
+    }
+})
+// end fixed arrow *********************************

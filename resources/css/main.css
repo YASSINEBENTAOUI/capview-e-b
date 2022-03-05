@@ -24,9 +24,26 @@ a{
 }
 p{
     font-size: 18px;
+    text-align: justify;
 }
 h3{
     font-size: 22px!important;
+}
+.arrow{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    z-index: 100;
+}
+.arrow a:hover{
+    color: unset!important;
+}
+.arrow i{
+    font-size: 3rem;
+    color: var(--green-color);
+}
+.arrow i:hover{
+    color: var(--green-color)!important;
 }
 /* info section */
 #info{
@@ -108,7 +125,8 @@ h3{
 /* valeurs style */
 #valeurs{
     padding: 0 80px;
-    color: #000000;
+    color: var(--white-color);
+    background-color: var(--yellow-color);
 }
 #valeurs h2{
     font-size: 70px;
@@ -118,6 +136,7 @@ h3{
 }
 #valeurs .card{
     border: none;
+    background-color: unset;
 }
 #valeurs .card-img{
     color: #92d051;
@@ -131,7 +150,7 @@ h3{
 .title{
     font-family: 'Nanum Brush Script', cursive;
     font-size: 40px;
-    color: #C00000;
+    color: var(--white-color);
 }
 #valeurs .card a{
     color: #000000;
@@ -210,6 +229,23 @@ footer a{
     color: var(--white-color);
 }
 footer a:hover{
-    color: unset;
+    color: var(--yellow-color);
+}
+footer .links i{
+    margin-right: 10px;
+    font-size: 10px;
+    color: var(--yellow-color);
+}
+footer .links2 i{
+    margin-right: 10px;
+    color: var(--yellow-color);
+}
+footer .button{
+    border: 2px solid var(--yellow-color);
+    background-color: var(--yellow-color)!important;
+    color: #FFFFFF!important;
+}
+footer .button:hover{
+    background-color: unset!important;
 }
 /* end footer style */

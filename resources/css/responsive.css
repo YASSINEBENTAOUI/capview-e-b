@@ -41,8 +41,11 @@
     }
     /* end nav style */
     /* header style */
+    #header img{
+        height: 50vh;
+    }
     #header .header-text{
-        top: 25%;
+        top: 40%;
     }
     #header .header-text .text1{
         font-size: 40px!important;

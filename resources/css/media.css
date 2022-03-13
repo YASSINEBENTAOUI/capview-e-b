@@ -1,0 +1,291 @@
+@media (max-width: 576px) {
+    p{
+        font-size: 15px;
+    }
+    /* info section */
+    #info{
+        padding: 5px 5px 10px 5px;
+    }
+    #info ul li{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    #info .media-icons i{
+        margin-left: unset;
+        margin-right: 20px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    /* end info section */
+    /* nav style */
+    #nav{
+        padding: 5px;
+    }
+    #nav .logo{
+        width: 60%!important;
+        height: auto!important;
+    }
+    #nav .list-icon{
+        display: block;
+        cursor: pointer;
+    }
+    #nav .close-list{
+        display: none;
+        cursor: pointer;
+    }
+    #nav .nav-list{
+        display: none;
+    }
+    #nav ul li a{
+        font-size: 14px;
+    }
+    /* end nav style */
+    /* header style */
+    header{
+        height: 400px;
+    }
+    #header h1{
+        color: var(--white-color);
+        font-size: 4rem;
+    }
+    /* end header style */
+    /* about style */
+    #about{
+        padding: 0 2px;
+        color: #000000;
+    }
+    #about h2{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    #about .title{
+        font-size: 25px;
+    }
+    /* end about style */
+    /* department style */
+    #departement{
+        padding: 0 2px;
+        color: #000000;
+    }
+    #departement h2{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    /* end department style */
+    /* services */
+    /* wait */
+    .wait{
+        width: 100%;
+    }
+    /* end of wait */
+}
+/* ************************************* */
+@media (min-width: 577px) and (max-width: 768px) {
+    p{
+        font-size: 16px;
+    }
+    /* info section */
+    #info{
+        padding: 5px 5px 10px 5px;
+    }
+    #info ul li{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    #info .media-icons i{
+        font-size: 12px;
+    }
+    /* end info section */
+    /* nav style */
+    #nav{
+        padding: 5px;
+    }
+    #nav .logo{
+        width: 50%!important;
+    }
+    #nav .list-icon{
+        display: block;
+        cursor: pointer;
+    }
+    #nav .close-list{
+        display: none;
+        cursor: pointer;
+    }
+    #nav .nav-list{
+        display: none;
+    }
+    #nav ul li a{
+        font-size: 14px;
+    }
+    /* end nav style */
+    /* header style */
+    #header .header-text{
+        top: 25%;
+    }
+    #header .header-text .text1{
+        font-size: 65px;
+    }
+    #header .header-text .text2{
+        font-size: 40px;
+        margin-left: 52px;
+    }
+    /* end header style */
+    /* about style */
+    #about{
+        padding: 0 20px;
+        color: #000000;
+    }
+    #about h2{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    #about .card-body .card-title{
+        font-weight: 600;
+    }
+    #about .title{
+        font-size: 35px;
+    }
+    /* end about style */
+    /* department style */
+    #departement{
+        padding: 0 20px;
+        color: #000000;
+    }
+    #departement h2{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    #departement .card-body .card-title{
+        font-weight: 600;
+    }
+    /* end department style */
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    /* nav style */
+    #nav .logo{
+        width: 100%;
+    }
+    #nav ul li a{
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    /* end nav style */
+    /* header style */
+    #header .header-text{
+        top: 25%;
+    }
+    #header .header-text .text1{
+        font-size: 80px;
+    }
+    #header .header-text .text2{
+        font-size: 55px;
+        margin-left: 60px;
+    }
+    /* end header style */
+    /* about style */
+    #about{
+        padding: 0 35px;
+        color: #000000;
+    }
+    #about h2{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+    #about .card-body .card-title{
+        font-weight: 600;
+    }
+    /* end about style */
+    /* department style */
+    #departement{
+        padding: 0 35px;
+        color: #000000;
+    }
+    #departement h2{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+    #departement .card-body .card-title{
+        font-weight: 600;
+    }
+    /* end department style */
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* header style */
+    #header .header-text{
+        top: 25%;
+    }
+    #header .header-text .text1{
+        font-size: 100px;
+    }
+    #header .header-text .text2{
+        font-size: 70px;
+        margin-left: 70px;
+    }
+    /* end header style */
+    /* about style */
+    #about{
+        padding: 0 30px;
+        color: #000000;
+    }
+    #about h2{
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+    #about .card-body .card-title{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    /* end about style */
+    /* department style */
+    #departement{
+        padding: 0 30px;
+        color: #000000;
+    }
+    #departement h2{
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+    #departement .card-body .card-title{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    /* end department style */
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+    /* header style */
+    #header .header-text{
+        top: 28%;
+    }
+    #header .header-text .text1{
+        font-size: 110px;
+    }
+    #header .header-text .text2{
+        font-size: 80px;
+        margin-left: 70px;
+    }
+    /* end header style */
+}

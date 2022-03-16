@@ -132,24 +132,20 @@ header{
 #about .card-img{
     color: #92d051;
 }
-#about .icon-color{
-    color: #FFFFFF
+#about i{
+    color: var(--green-color)
 }
 #about p{
-    text-align: justify;
+    margin-bottom: unset!important;
 }
-#about .card a{
-    color: #000000;
-    display: block;
+#about h6{
+    display: inline-block;
 }
-#about .card-body .card-title{
-    margin-bottom: 30px;
-    font-weight: 600;
-    font-size: 20px;
+#about .list2{
+    font-size: 10px!important;
 }
-#about .card-body a{
-    color: var(--yellow-color);
-    text-decoration: underline!important;
+#about ul li i{
+    display: inline-block!important;
 }
 /* end about style */
 /* departement style */

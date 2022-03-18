@@ -96,6 +96,19 @@ h3{
     color: var(--yellow-color)!important;
     border-bottom: 2px var(--yellow-color) solid;
 }
+#nav .drop-items{
+    display: none;
+    position: absolute;
+    background-color: var(--white-color);
+    width: 320px;
+    /* left: 0; */
+}
+#nav .drop-items a{
+    text-align: left;
+}
+#nav .drop-down:hover .drop-items{
+    display: block!important;
+}
 /* end nav style */
 /* header style */
 header{

@@ -39,6 +39,13 @@
     #nav ul li a{
         font-size: 14px;
     }
+    #nav .drop-items{
+        width: 100%;
+        left: 0;
+    }
+    #nav .drop-items a{
+        text-align: center;
+    }
     /* end nav style */
     /* header style */
     header{

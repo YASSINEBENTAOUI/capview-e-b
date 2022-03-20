@@ -100,11 +100,15 @@ h3{
     display: none;
     position: absolute;
     background-color: var(--white-color);
-    width: 320px;
-    /* left: 0; */
 }
 #nav .drop-items a{
+    margin: 0;
     text-align: left;
+    padding: 15px 10px;
+}
+#nav .drop-items a:hover{
+    background-color: var(--green-color);
+    color: var(--bleu-color);
 }
 #nav .drop-down:hover .drop-items{
     display: block!important;
@@ -161,53 +165,6 @@ header{
     display: inline-block!important;
 }
 /* end about style */
-/* departement style */
-#departement{
-    padding: 0 80px;
-    color: #000000;
-}
-#departement h2{
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 50px 0;
-}
-#departement .card{
-    border: none;
-    transition: 1000ms ease;
-}
-#departement .card:hover{
-    box-shadow: unset!important;
-}
-#departement .card:hover h6 a{
-    color: var(--bleu-color)!important;
-}
-#departement .card:hover .card-body a i{
-    display: inline;
-}
-#departement .card-img{
-    overflow: hidden;
-}
-#departement img{
-    transition: 1s;
-}
-#departement img:hover{
-    transform: scale(1.1);
-}
-#departement .card-body .card-title{
-    margin-bottom: 30px;
-    font-weight: 600;
-}
-#departement .card-body a{
-    color: var(--yellow-color);
-}
-#departement .card-body a i{
-    display: none;
-}
-#departement p{
-    text-align: justify;
-}
-/* end departement style */
 /* footer style */
 footer{
     background-color: var(--bleu-color);
